@@ -1,0 +1,20 @@
+D:\dev\derya\RocheWordRedactionTool\bin\Debug\Roche Word Redaction Tool.dll.config
+D:\dev\derya\RocheWordRedactionTool\bin\Debug\Roche Word Redaction Tool.dll
+D:\dev\derya\RocheWordRedactionTool\bin\Debug\Roche Word Redaction Tool.pdb
+D:\dev\derya\RocheWordRedactionTool\bin\Debug\Roche Word Redaction Tool.dll.manifest
+D:\dev\derya\RocheWordRedactionTool\bin\Debug\Roche Word Redaction Tool.vsto
+D:\dev\derya\RocheWordRedactionTool\bin\Debug\Microsoft.Office.Tools.Common.dll
+D:\dev\derya\RocheWordRedactionTool\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\dev\derya\RocheWordRedactionTool\bin\Debug\Microsoft.Office.Tools.dll
+D:\dev\derya\RocheWordRedactionTool\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+D:\dev\derya\RocheWordRedactionTool\bin\Debug\Microsoft.Office.Tools.Word.dll
+D:\dev\derya\RocheWordRedactionTool\bin\Debug\Microsoft.Office.Tools.Word.v4.0.Utilities.dll
+D:\dev\derya\RocheWordRedactionTool\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+D:\dev\derya\RocheWordRedactionTool\obj\Debug\Word2007RedactionTool.Properties.Resources.resources
+D:\dev\derya\RocheWordRedactionTool\obj\Debug\Word2007RedactionTool.FormDoRedaction.resources
+D:\dev\derya\RocheWordRedactionTool\obj\Debug\Word2007RedactionTool.FormSuccess.resources
+D:\dev\derya\RocheWordRedactionTool\obj\Debug\Word2007RedactionTool.FormFindAndMark.resources
+D:\dev\derya\RocheWordRedactionTool\obj\Debug\RocheWordRedactionTool.csproj.GenerateResource.Cache
+D:\dev\derya\RocheWordRedactionTool\obj\Debug\RocheWordRedactionTool.csproj.CoreCompileInputs.cache
+D:\dev\derya\RocheWordRedactionTool\obj\Debug\Roche Word Redaction Tool.dll
+D:\dev\derya\RocheWordRedactionTool\obj\Debug\Roche Word Redaction Tool.pdb

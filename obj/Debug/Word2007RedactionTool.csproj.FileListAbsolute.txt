@@ -1,0 +1,20 @@
+D:\dev\derya\Word2007RedactionTool\bin\Debug\Word 2007 Redaction Tool.dll.config
+D:\dev\derya\Word2007RedactionTool\bin\Debug\Word 2007 Redaction Tool.dll
+D:\dev\derya\Word2007RedactionTool\bin\Debug\Word 2007 Redaction Tool.pdb
+D:\dev\derya\Word2007RedactionTool\bin\Debug\Word 2007 Redaction Tool.dll.manifest
+D:\dev\derya\Word2007RedactionTool\bin\Debug\Word 2007 Redaction Tool.vsto
+D:\dev\derya\Word2007RedactionTool\bin\Debug\Microsoft.Office.Tools.Common.dll
+D:\dev\derya\Word2007RedactionTool\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\dev\derya\Word2007RedactionTool\bin\Debug\Microsoft.Office.Tools.dll
+D:\dev\derya\Word2007RedactionTool\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+D:\dev\derya\Word2007RedactionTool\bin\Debug\Microsoft.Office.Tools.Word.dll
+D:\dev\derya\Word2007RedactionTool\bin\Debug\Microsoft.Office.Tools.Word.v4.0.Utilities.dll
+D:\dev\derya\Word2007RedactionTool\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+D:\dev\derya\Word2007RedactionTool\obj\Debug\Word2007RedactionTool.Properties.Resources.resources
+D:\dev\derya\Word2007RedactionTool\obj\Debug\Word2007RedactionTool.FormDoRedaction.resources
+D:\dev\derya\Word2007RedactionTool\obj\Debug\Word2007RedactionTool.FormSuccess.resources
+D:\dev\derya\Word2007RedactionTool\obj\Debug\Word2007RedactionTool.FormFindAndMark.resources
+D:\dev\derya\Word2007RedactionTool\obj\Debug\Word2007RedactionTool.csproj.GenerateResource.Cache
+D:\dev\derya\Word2007RedactionTool\obj\Debug\Word2007RedactionTool.csproj.CoreCompileInputs.cache
+D:\dev\derya\Word2007RedactionTool\obj\Debug\Word 2007 Redaction Tool.dll
+D:\dev\derya\Word2007RedactionTool\obj\Debug\Word 2007 Redaction Tool.pdb

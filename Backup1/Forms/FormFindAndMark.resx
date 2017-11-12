@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 89</value>
+  </data>
+  <data name="buttonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Name" xml:space="preserve">
+    <value>buttonCancel</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Fi&amp;nd what:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 10</value>
+  </data>
+  <data name="textBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 20</value>
+  </data>
+  <data name="textBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBox.Name" xml:space="preserve">
+    <value>textBox</value>
+  </data>
+  <data name="&gt;&gt;textBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonMark.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonMark.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonMark.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="buttonMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>366, 89</value>
+  </data>
+  <data name="buttonMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 23</value>
+  </data>
+  <data name="buttonMark.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonMark.Text" xml:space="preserve">
+    <value>Mark</value>
+  </data>
+  <data name="&gt;&gt;buttonMark.Name" xml:space="preserve">
+    <value>buttonMark</value>
+  </data>
+  <data name="&gt;&gt;buttonMark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMark.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Search Options</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelOptions</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBoxIgnoreWhitespace.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxIgnoreWhitespace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxIgnoreWhitespace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 105</value>
+  </data>
+  <data name="checkBoxIgnoreWhitespace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 17</value>
+  </data>
+  <data name="checkBoxIgnoreWhitespace.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="checkBoxIgnoreWhitespace.Text" xml:space="preserve">
+    <value>Ignore white-sp&amp;ace characters</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIgnoreWhitespace.Name" xml:space="preserve">
+    <value>checkBoxIgnoreWhitespace</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIgnoreWhitespace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIgnoreWhitespace.Parent" xml:space="preserve">
+    <value>panelOptions</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIgnoreWhitespace.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxIgnorePunct.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxIgnorePunct.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxIgnorePunct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 86</value>
+  </data>
+  <data name="checkBoxIgnorePunct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 17</value>
+  </data>
+  <data name="checkBoxIgnorePunct.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="checkBoxIgnorePunct.Text" xml:space="preserve">
+    <value>Ignore punctuation character&amp;s</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIgnorePunct.Name" xml:space="preserve">
+    <value>checkBoxIgnorePunct</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIgnorePunct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIgnorePunct.Parent" xml:space="preserve">
+    <value>panelOptions</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIgnorePunct.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBoxMatchSuffix.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMatchSuffix.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="checkBoxMatchSuffix.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxMatchSuffix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 48</value>
+  </data>
+  <data name="checkBoxMatchSuffix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="checkBoxMatchSuffix.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="checkBoxMatchSuffix.Text" xml:space="preserve">
+    <value>Ma&amp;tch suffix</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMatchSuffix.Name" xml:space="preserve">
+    <value>checkBoxMatchSuffix</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMatchSuffix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMatchSuffix.Parent" xml:space="preserve">
+    <value>panelOptions</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMatchSuffix.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBoxMatchPrefix.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMatchPrefix.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="checkBoxMatchPrefix.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxMatchPrefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 29</value>
+  </data>
+  <data name="checkBoxMatchPrefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="checkBoxMatchPrefix.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="checkBoxMatchPrefix.Text" xml:space="preserve">
+    <value>Match prefi&amp;x</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMatchPrefix.Name" xml:space="preserve">
+    <value>checkBoxMatchPrefix</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMatchPrefix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMatchPrefix.Parent" xml:space="preserve">
+    <value>panelOptions</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMatchPrefix.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBoxWordForms.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxWordForms.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="checkBoxWordForms.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxWordForms.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 105</value>
+  </data>
+  <data name="checkBoxWordForms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 17</value>
+  </data>
+  <data name="checkBoxWordForms.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkBoxWordForms.Text" xml:space="preserve">
+    <value>Find all &amp;word forms (English)</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWordForms.Name" xml:space="preserve">
+    <value>checkBoxWordForms</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWordForms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWordForms.Parent" xml:space="preserve">
+    <value>panelOptions</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWordForms.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBoxSoundsLike.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxSoundsLike.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="checkBoxSoundsLike.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxSoundsLike.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 86</value>
+  </data>
+  <data name="checkBoxSoundsLike.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 17</value>
+  </data>
+  <data name="checkBoxSoundsLike.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkBoxSoundsLike.Text" xml:space="preserve">
+    <value>Sounds li&amp;ke (English)</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSoundsLike.Name" xml:space="preserve">
+    <value>checkBoxSoundsLike</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSoundsLike.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSoundsLike.Parent" xml:space="preserve">
+    <value>panelOptions</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSoundsLike.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkBoxWildcards.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxWildcards.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="checkBoxWildcards.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxWildcards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 67</value>
+  </data>
+  <data name="checkBoxWildcards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 17</value>
+  </data>
+  <data name="checkBoxWildcards.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="checkBoxWildcards.Text" xml:space="preserve">
+    <value>&amp;Use wildcards</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWildcards.Name" xml:space="preserve">
+    <value>checkBoxWildcards</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWildcards.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWildcards.Parent" xml:space="preserve">
+    <value>panelOptions</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWildcards.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="checkBoxWholeWord.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxWholeWord.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="checkBoxWholeWord.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxWholeWord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 48</value>
+  </data>
+  <data name="checkBoxWholeWord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 17</value>
+  </data>
+  <data name="checkBoxWholeWord.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkBoxWholeWord.Text" xml:space="preserve">
+    <value>Find whole words onl&amp;y</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWholeWord.Name" xml:space="preserve">
+    <value>checkBoxWholeWord</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWholeWord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWholeWord.Parent" xml:space="preserve">
+    <value>panelOptions</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWholeWord.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="checkBoxMatchCase.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMatchCase.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="checkBoxMatchCase.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxMatchCase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 29</value>
+  </data>
+  <data name="checkBoxMatchCase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="checkBoxMatchCase.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="checkBoxMatchCase.Text" xml:space="preserve">
+    <value>Matc&amp;h case</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMatchCase.Name" xml:space="preserve">
+    <value>checkBoxMatchCase</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMatchCase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMatchCase.Parent" xml:space="preserve">
+    <value>panelOptions</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMatchCase.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panelOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 130</value>
+  </data>
+  <data name="panelOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>544, 135</value>
+  </data>
+  <data name="panelOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="panelOptions.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panelOptions.Name" xml:space="preserve">
+    <value>panelOptions</value>
+  </data>
+  <data name="&gt;&gt;panelOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelOptions.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonMoreLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 89</value>
+  </data>
+  <data name="buttonMoreLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="buttonMoreLess.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonMoreLess.Text" xml:space="preserve">
+    <value>&amp;More &gt;&gt;</value>
+  </data>
+  <data name="&gt;&gt;buttonMoreLess.Name" xml:space="preserve">
+    <value>buttonMoreLess</value>
+  </data>
+  <data name="&gt;&gt;buttonMoreLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMoreLess.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMoreLess.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelResults.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 67</value>
+  </data>
+  <data name="labelResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="labelResults.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="labelResults.Text" xml:space="preserve">
+    <value>&lt;&lt;results&gt;&gt;</value>
+  </data>
+  <data name="&gt;&gt;labelResults.Name" xml:space="preserve">
+    <value>labelResults</value>
+  </data>
+  <data name="&gt;&gt;labelResults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelResults.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelResults.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelOptions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 38</value>
+  </data>
+  <data name="labelOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="labelOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="labelOptions.Text" xml:space="preserve">
+    <value>Options:</value>
+  </data>
+  <data name="&gt;&gt;labelOptions.Name" xml:space="preserve">
+    <value>labelOptions</value>
+  </data>
+  <data name="&gt;&gt;labelOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelOptions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelOptionsDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 37</value>
+  </data>
+  <data name="labelOptionsDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 14</value>
+  </data>
+  <data name="labelOptionsDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="labelOptionsDetails.Text" xml:space="preserve">
+    <value>&lt;&lt;options&gt;&gt;</value>
+  </data>
+  <data name="&gt;&gt;labelOptionsDetails.Name" xml:space="preserve">
+    <value>labelOptionsDetails</value>
+  </data>
+  <data name="&gt;&gt;labelOptionsDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelOptionsDetails.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelOptionsDetails.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>542, 130</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Find and Mark</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormFindAndMark</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

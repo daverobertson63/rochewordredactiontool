@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="Ribbon_Load" loadImage="Ribbon_LoadImages">
+  <ribbon>
+    <officeMenu>
+      <menu idMso="FilePrepareMenu">
+        <button id="buttonMarkOfficeMenu" image="Redact32.ico" insertAfterMso="FileDocumentInspect" getEnabled="Ribbon_GetEnabled" getLabel="Ribbon_GetLabel" getDescription="Ribbon_GetDescription" onAction="ButtonRedact_Click" />
+      </menu>
+    </officeMenu>
+    <tabs>
+      <tab idMso="TabReviewWord">
+        <group id="groupRedact" insertBeforeMso="GroupCompare" getLabel="Ribbon_GetLabel">
+          <splitButton id="splitButtonMark" size="large" getEnabled="Ribbon_GetEnabled" getKeytip="Ribbon_GetKeytip" >
+            <button id="splitButtonMark__btn" image="Mark32.ico" getLabel="Ribbon_GetLabel" getScreentip="Ribbon_GetScreentip" getSupertip="Ribbon_GetSupertip" onAction="SplitButtonMark_Click" />
+            <menu id="splitButtonMark__mnu" getScreentip="Ribbon_GetScreentip" getSupertip="Ribbon_GetSupertip" >
+              <button id="buttonMark" image="Mark16.ico" getLabel="Ribbon_GetLabel" getScreentip="Ribbon_GetScreentip" getSupertip="Ribbon_GetSupertip" onAction="SplitButtonMark_Click" />
+              <button id="buttonFindAndMark" getLabel="Ribbon_GetLabel" getSupertip="Ribbon_GetSupertip" onAction="ButtonFindAndMark_Click" />
+              <button id="buttonRedact" image="Redact16.ico" getLabel="Ribbon_GetLabel" getScreentip="Ribbon_GetScreentip" getSupertip="Ribbon_GetSupertip" onAction="ButtonRedact_Click" />
+            </menu>
+          </splitButton>
+          <box id="redactBox" boxStyle="vertical">
+            <splitButton id="splitButtonUnmark" getEnabled="Ribbon_GetEnabled" getKeytip="Ribbon_GetKeytip">
+              <button id="splitButtonUnmark__btn" image="Delete16.ico" getLabel="Ribbon_GetLabel" getScreentip="Ribbon_GetScreentip" getSupertip="Ribbon_GetSupertip" onAction="ButtonUnmark_Click" />
+              <menu id="splitButtonUnmark_mnu" getScreentip="Ribbon_GetScreentip" getSupertip="Ribbon_GetSupertip" >
+                <button id="buttonUnmark" image="Delete16.ico" getLabel="Ribbon_GetLabel" getScreentip="Ribbon_GetScreentip" getSupertip="Ribbon_GetSupertip" onAction="ButtonUnmark_Click" />
+                <button id="buttonUnmarkAll" getLabel="Ribbon_GetLabel" onAction="ButtonUnmarkAll_Click" />
+              </menu>
+            </splitButton>
+            <button id="buttonPrevious" image="Previous16.ico" getEnabled="Ribbon_GetEnabled" getLabel="Ribbon_GetLabel" getScreentip="Ribbon_GetScreentip" getSupertip="Ribbon_GetSupertip" getKeytip="Ribbon_GetKeytip" onAction="ButtonPrevious_Click" />
+            <button id="buttonNext" image="Next16.ico" getEnabled="Ribbon_GetEnabled" getLabel="Ribbon_GetLabel" getScreentip="Ribbon_GetScreentip" getSupertip="Ribbon_GetSupertip" getKeytip="Ribbon_GetKeytip" onAction="ButtonNext_Click" />
+          </box>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
